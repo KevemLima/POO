@@ -1,0 +1,1 @@
+foi uma questãp de exemplo, mostrando como as questões seguintes deveriam ser feitas.
