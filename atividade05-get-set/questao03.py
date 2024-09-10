@@ -28,8 +28,8 @@ salario = input("Digite o salário do funcionário: ")
 
 funcionario1 = Funcionario(nome, cargo, salario)
 
-print("O nome do funcionário é: ", funcionario1.get_nome())
-print("O cargo do funcionário é: ", funcionario1.get_cargo())
+print(f"O nome do funcionário é: {funcionario1.get_nome()}")
+print(f"O cargo do funcionário é: {funcionario1.get_cargo()}")
 
 novocargo = input("Digite um novo cargo para o funcionário: ")
 funcionario1.set_cargo(novocargo)

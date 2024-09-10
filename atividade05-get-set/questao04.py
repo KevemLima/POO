@@ -21,6 +21,6 @@ area = largura*altura
 
 retangulo = Retangulo(largura, altura)
 
-print(f"A largura do seu retângulo é {retangulo.get_largura()}")
-print(f"A altura do seu retângulo é {retangulo.get_altura()}")
-print(f"A área do seu retângulo é {area}")
+print(f"A largura do seu retângulo é {retangulo.get_largura()} m")
+print(f"A altura do seu retângulo é {retangulo.get_altura()} m")
+print(f"A área do seu retângulo é {area} m²")
