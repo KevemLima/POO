@@ -1,0 +1,51 @@
+header{
+    height: 88px;
+    background: #F2F2F2;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    padding-left: 200px;
+}
+
+header nav{}
+header nav menu{
+    gap: 45px;
+    padding-right: 200px;
+}
+header nav menu li{}
+header nav menu a{
+    color: black;
+}
+
+main{}
+main .breadcrumb{}
+main .breadcrumb a{}
+main .breadcrumb span{}
+
+main header{
+    background: #222222;
+}
+main header h1{}
+main header small{}
+
+main .filtros{}
+main .filtros a{}
+main .filtros a:hover{}
+
+main .conteudo{}
+main .conteudo h2{}
+main .conteudo h2 small{}
+
+.livros{}
+.livros .livro{}
+.livros .livro figure{}
+.livros .livro .right{}
+
+
+footer{
+    background: #F9FAFC;
+    padding: 20px;
+    text-align: center;
+}
