@@ -11,59 +11,72 @@
 </head>
 <body>
 
-    <header class="flex">
-        <a href="#">
-            <img src="assets/LOGO.png" alt="">
-        </a>
-        <nav>
-            <menu class="flex style-none">
-                <li class="font-16"><a href="#" class="style-none">SOBRE</a></li>
-                <li class="font-16"><a href="#" class="style-none">CURSOS</a></li>
-                <li class="font-16"><a href="#" class="style-none">BIBLIOTECA</a></li>
-                <li class="font-16"><a href="#" class="style-none">MATERIAIS</a></li>
-            </menu>
-        </nav>
+    <header class="flex centralizar">
+        <div class="container flex alinhar-extremidade centralizar-vertical">
+            <a href="#">
+                <img class="" src="assets/LOGO.png" alt="">
+            </a>
+            <nav>
+                <menu class="flex">
+                    <li class="font-16"><a href="#" class="style-none">SOBRE</a></li>
+                    <li class="font-16"><a href="#" class="style-none">CURSOS</a></li>
+                    <li class="font-16"><a href="#" class="style-none">BIBLIOTECA</a></li>
+                    <li class="font-16"><a href="#" class="style-none">MATERIAIS</a></li>
+                </menu>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <div class="breadcrumb">
-            <a href="/">Home</a>
-            <a href="livros.html">Livros</a>
-            <span>Biblioteca do Professor</span>
+        <div class="breadcrumb flex centralizar">
+            <div class="container flex centralizar-vertical">
+                <a href="/">Home</a>
+                <img src="assets/arrow-right.svg" alt="flecha" width="30px" height="24px">
+                <a href="livros.html">Livros</a>
+                <img src="assets/arrow-right.svg" alt="flecha" width="30px" height="24px">
+                <span>Biblioteca do Professor</span>
+            </div>
         </div>
 
-        <header>
-            <h1>Biblioteca do Professor</h1>
-            <small>256 livros  |  23 livros comentados   |  5 resenhas</small>
+        <header class="flex centralizar">
+            <div class="container">
+                <h1>Biblioteca do Professor</h1>
+                <small>256 livros  |  23 livros comentados   |  5 resenhas</small>
+            </div>
         </header>
-        <section class="filtros">
-            <a href="#">Fundamentos do design</a>
-            <a href="#">UX / UI Design</a>
-            <a href="#">Inovação</a>
-            <a href="#">Ensino e Aprendizagem</a>
-            <a href="#">Desenvolvimento Pessoal</a>
+        <section class="filtros flex centralizar">
+            <div class="container">
+                <a href="#">Fundamentos do design</a>
+                <a href="#">UX / UI Design</a>
+                <a href="#">Inovação</a>
+                <a href="#">Ensino e Aprendizagem</a>
+                <a href="#">Desenvolvimento Pessoal</a>
+            </div>
         </section>
 
-        <section class="conteudo">
-            <h2>Fundamentos do design <small>6 livros</small></h2>
-            <ul class="livros">
-                <li class="livro">
-                    <figure>
-                        <img src="assets/img/livro/livro-1.jpg" alt="">
-                        <a href="#">Leia mais</a>
-                    </figure>
-                    <div class="right">
-                        <strong class="block"></strong>
-                        <div></div>
-                        <div></div>
-                        <div>
-                            <a href="#" class="inline-block">Artes</a>
-                            <a href="#" class="inline-block">Design</a>
-                            <a href="#" class="inline-block">Fundamentos da Imagem</a>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+        <section class="conteudo flex centralizar">
+            <div class="container"></div>
+                <h2>Fundamentos do design <small>6 livros</small></h2>
+                    <ul class="livros">
+                        <li class="livro">
+                            <figure>
+                                <img src="assets/image 2.svg    " alt="">
+                                <br>
+                                <a href="#">Leia mais</a>
+                            </figure>
+                            <div class="right">
+                                <strong class="block"></strong>
+                                <div></div>
+                                <div></div>
+                                <div>
+                                    <a href="#" class="inline-block">Artes</a>
+                                    <a href="#" class="inline-block">Design</a>
+                                    <a href="#" class="inline-block">Fundamentos da Imagem</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+            </div>
         </section>
 
     </main>

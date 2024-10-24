@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}
+
 header{
     height: 88px;
     background: #F2F2F2;
@@ -5,28 +12,39 @@ header{
     align-items: center;
 }
 
-header img{
-    padding-left: 200px;
-}
-
+header img{}
 header nav{}
 header nav menu{
-    gap: 45px;
-    padding-right: 200px;
+    list-style: none;
+    gap: 40px;
 }
 header nav menu li{}
 header nav menu a{
     color: black;
+    text-decoration: none;
 }
 
 main{}
-main .breadcrumb{}
-main .breadcrumb a{}
-main .breadcrumb span{}
+main .breadcrumb{
+    padding-top: 32px;
+    padding-bottom: 14px;
+    gap: 10px;
+}
+main .breadcrumb div{gap: 10px;}
+main .breadcrumb a{
+    text-decoration: none;
+    color: #3C4858;
+}
+main .breadcrumb span{
+    color: #8A9399;
 
+}
 main header{
     background: #222222;
+    color: #F9FAFC;
+    height: 160px;
 }
+
 main header h1{}
 main header small{}
 
@@ -35,8 +53,14 @@ main .filtros a{}
 main .filtros a:hover{}
 
 main .conteudo{}
-main .conteudo h2{}
-main .conteudo h2 small{}
+main .conteudo h2{
+    font-size: 26px;
+}
+main .conteudo h2 small{
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+}
 
 .livros{}
 .livros .livro{}
