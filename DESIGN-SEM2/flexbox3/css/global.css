@@ -1,6 +1,8 @@
-.container{
-    min-width: 1400px;
-}
+.top{
+    position: sticky;
+    top: 0;}
+
+.container{min-width: 1400px;}
 
 .linha{border: 1px solid red;}
 
@@ -20,7 +22,6 @@
 
 .centralizar{
     align-items: center;
-    justify-content: center;
-}
+    justify-content: center;}
 
 .alinhar-extremidade{justify-content: space-between;}
