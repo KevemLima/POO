@@ -61,11 +61,15 @@ main .conteudo h2 small{
     font-weight: 400;
     padding-left: 20px;}
 
+.livro-pai{margin-bottom: 80px;}
 .livros{
     margin: 0;
     padding: 0;
+    max-width: 1400px;
+    flex-wrap: wrap;
 }
 .livros .livro{
+    max-width: 30%;
     list-style: none;
     height: 240px;
     width: 384px;
@@ -76,6 +80,12 @@ main .conteudo h2 small{
 }
 .livros .livro figure{
     padding: 20px;
+}
+figure a{
+    display: flex;
+}
+figure img{
+    margin-bottom: 10px;
 }
 .livros .livro .right{
     padding: 20px;
